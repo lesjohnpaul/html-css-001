@@ -1,3 +1,7 @@
+:root {
+  link-color: orange; /*css global variable*/
+}
+
 p {
   /* color: blue; */
 }
