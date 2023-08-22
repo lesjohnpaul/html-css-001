@@ -1,5 +1,20 @@
 :root {
-  link-color: orange; /*css global variable*/
+  /* link-color: orange; css global variable*/
+}
+html {
+  font-size: 16px;
+}
+
+.main-header-menu-link,
+.main-header-menu-tel {
+  text-decoration: none;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  font-style: none;
+}
+.hero-heading {
+  font-family: Raleway;
 }
 
 p {
@@ -11,18 +26,18 @@ body {
 }
 
 .hero {
-  background-color: bisque;
+  /* background-color: bisque; */
 }
 
 #about-section {
-  background-color: teal;
+  /* background-color: teal; */
 }
 
 header a {
   /* color: aqua; descendant selector */
 }
 .hero {
-  background-color: black;
+  /* background-color: black; */
 }
 /* .main-header a {
   color: ;
@@ -38,17 +53,37 @@ header a {
 } */
 
 .nav-links a:hover {
-  color: red;
-  cursor: pointer;
+  /* color: red;
+  cursor: pointer; */
 }
 
 button:hover {
   cursor: pointer; /* hand icon */
-  color: aquamarine;
+  /* color: aquamarine; */
 }
 button:focus {
-  color: green;
+  /* color: green; */
 }
 .hero-heading {
-  color: rgb(172, 185, 113);
+  /* color: rgb(172, 185, 113); */
+}
+
+.main-header-cta {
+  text-transform: uppercase;
+  white-space: nowrap;
+  font-size: 10px;
+  line-height: 1.5rem;
+}
+
+.hero-description {
+  text-align: none;
+}
+
+.hero-description {
+  text-indent: 50px;
+}
+
+.hero-description {
+  line-height: 1em; /*spacing between text */
+  /* white-space: nowrap; no wrapping  */
 }

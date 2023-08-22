@@ -4,8 +4,11 @@
         <title>Barbershop</title>
         <meta name="description" content="An Awesome website "/>
         <meta charset="utf-8" >
-        
+
         <link rel="stylesheet" href="./css/index.css" />
+        <link 
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" 
+        rel="stylesheet">"
     </head>
 <body>
     <!--Header Section -->
@@ -16,16 +19,24 @@
             </a>
 
             <ul>
-                <li><a href="#about-section"> About </a></li>  <!--  scroll down to about section, #about-section is the id -->
-                <li><a href="/">Services and Prices </a></li>
-                <li><a href="/"> Barbers </a></li>
-                <li><a href="/"> Contact Us </a></li>
+                <li class="main-header-menu-item">
+                    <a class="main-header-menu-link" href="#about-section"> About </a>
+                </li>  <!--  scroll down to about section, #about-section is the id -->
+                <li class="main-header-menu-item">
+                    <a class="main-header-menu-link" href="/">Services and Prices </a>
+                </li>
+                <li class="main-header-menu-item">
+                    <a class="main-header-menu-link" href="/"> Barbers </a>
+                </li>
+                <li class="main-header-menu-item">
+                    <a class="main-header-menu-link" href="/"> Contact Us </a>
+                </li>
             </ul>
 
         </nav>
         <ul>
-            <li><a href="tel:09121261261">09121261261</a></li>
-            <button type="submit">Book a Service</button>
+            <li><a class="main-header-menu-tel"href="tel:09121261261">09121261261</a></li>
+            <button class="main-header-cta" type="submit">Book a Service</button>
         </ul>
     </header>
 
@@ -36,7 +47,7 @@
         <p>A hair salon for Men in Kyiv</p>
         <h1 class="hero-heading">BarberShop</h1>
 
-        <p>
+        <p class="hero-description">
             We are experts in trendy men's haircuts. <br />
             We work quickly, carefuly, and tastefully.
         </p>
