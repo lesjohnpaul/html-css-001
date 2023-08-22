@@ -1,14 +1,15 @@
 p {
-/* color: blue; */
-
+  /* color: blue; */
 }
 
-body{
-/* background-color: rgb(69, 245, 183); */ 
-
+body {
+  /* background-color: rgb(69, 245, 183); */
 }
 
 .hero {
-    background-color: bisque;
+  background-color: bisque;
+}
 
+#about-section {
+  background-color: green;
 }
