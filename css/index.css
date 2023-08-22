@@ -11,5 +11,40 @@ body {
 }
 
 #about-section {
-  background-color: green;
+  background-color: teal;
+}
+
+header a {
+  /* color: aqua; descendant selector */
+}
+.hero {
+  background-color: black;
+}
+/* .main-header a {
+  color: ;
+} */
+
+/* .nav-links {
+  color: orangered;
+} */
+
+/* a[href="/"] {
+
+  color: blueviolet;
+} */
+
+.nav-links a:hover {
+  color: red;
+  cursor: pointer;
+}
+
+button:hover {
+  cursor: pointer; /* hand icon */
+  color: aquamarine;
+}
+button:focus {
+  color: green;
+}
+.hero-heading {
+  color: rgb(172, 185, 113);
 }
