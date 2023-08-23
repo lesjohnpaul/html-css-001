@@ -1,6 +1,27 @@
-:root {
-  /* link-color: orange; css global variable*/
+@font-face {
+  font-family: "Raleway";
+  /* font-style: normal; */
+  font-weight: 700;
+  src: url("/fonts/Raleway-Bold.ttf") format(ttf);
 }
+:root {
+  --color-orange: #ffa500;
+  --color-black: #000;
+  --color-white: #fff;
+}
+body {
+  font-family: "Open Sans";
+  background-color: var(--color-black);
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Raleway", sans-serif;
+}
+
 html {
   font-size: 16px;
 }
@@ -11,18 +32,55 @@ html {
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
   font-weight: 400;
-  font-style: none;
+  color: white;
 }
+
+.main-header-menu-link:hover,
+.main-header-menu-tel:hover {
+  color: var(--color-orange);
+}
+.main-header-menu-link.active {
+  color: var(--color-orange);
+}
+
 .hero-heading {
-  font-family: Raleway;
+  font-family: "Raleway", sans-serif;
+}
+
+.main-header-cta {
+  text-transform: uppercase;
+  white-space: nowrap;
+  font-size: 10px;
+  line-height: 1.5rem;
+  background-color: transparent;
+  color: var(--color-white);
+  border: 1px solid orange;
+  border-radius: 20px;
+}
+.main-header-cta:hover {
+  color: var(--color-black);
+  border: 1px var(--color-black);
+  background-color: #ffa500;
+}
+
+.hero-description {
+  text-align: none;
+}
+
+.hero-description {
+  /* text-indent: 50px; */
+}
+
+.hero-description {
+  line-height: 1em; /*spacing between text */
+  /* white-space: nowrap; no wrapping  */
+}
+.hero-description::first-letter {
+  font-size: 2em;
 }
 
 p {
   /* color: blue; */
-}
-
-body {
-  /* background-color: rgb(69, 245, 183); */
 }
 
 .hero {
@@ -66,24 +124,4 @@ button:focus {
 }
 .hero-heading {
   /* color: rgb(172, 185, 113); */
-}
-
-.main-header-cta {
-  text-transform: uppercase;
-  white-space: nowrap;
-  font-size: 10px;
-  line-height: 1.5rem;
-}
-
-.hero-description {
-  text-align: none;
-}
-
-.hero-description {
-  text-indent: 50px;
-}
-
-.hero-description {
-  line-height: 1em; /*spacing between text */
-  /* white-space: nowrap; no wrapping  */
 }
